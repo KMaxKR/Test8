@@ -1,7 +1,6 @@
 package animals;
 
 public class Animal {
-    ZOO zoo = new ZOO();
 
     private String animalType;
     private int kg;
@@ -11,7 +10,6 @@ public class Animal {
         this.animalType = animalType;
         this.kg = kg;
         this.age = age;
-        zoo.animalsList.add(animalType);
     }
 
     public String getAnimalType(){

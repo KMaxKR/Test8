@@ -4,11 +4,11 @@ import java.util.*;
 
 public class ZOO{
 
-    public ArrayList<String> animalsList = new ArrayList<>();
-
-
-    public String getAnimalsFromList(int index){
-        return animalsList.get(index);
+    List<Animal> animals = new ArrayList<>();
+    public void addAnimal(Animal animal){
+        animals.add(animal);
     }
-
+    public List<Animal> getAnimal(){
+        return animals;
+    }
 }
