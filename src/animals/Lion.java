@@ -1,10 +1,19 @@
 package animals;
 
 public class Lion extends Animal{
-    public int getLionKg(){
-        return getKg();
+
+
+    public Lion(String animalType, int kg, int age) {
+        super(animalType, kg, age);
     }
-    public int getLionAge(){
-        return getAge();
+
+    @Override
+    public int getAge() {
+        return super.getAge();
+    }
+
+    @Override
+    public int getKg() {
+        return super.getKg();
     }
 }

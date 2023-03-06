@@ -6,7 +6,7 @@ public class Animal {
     private int kg;
     private int age;
 
-    public void AnimalInfo(String animalType, int kg, int age){
+    public Animal(String animalType, int kg, int age){
         this.animalType = animalType;
         this.kg = kg;
         this.age = age;
