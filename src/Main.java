@@ -11,6 +11,6 @@ public class Main{
         zoo.addAnimal(new Animal("Lion", 12, 2));
         zoo.addAnimal(new Animal("Racoon", 3, 2));
 
-        System.out.println();
+        System.out.println(zoo.getAnimal());
     }
 }
