@@ -6,11 +6,13 @@ public class Main{
     public static void main(String[] args) {
 
         ZOO zoo = new ZOO();
-        //Animal animals = new Animal();
+        Animal animals1 = new Racoon("Lion", 12, 2);
+        Animal animals2 = new Lion("Racoon", 3, 2);
 
-        zoo.addAnimal(new Animal("Lion", 12, 2));
-        zoo.addAnimal(new Animal("Racoon", 3, 2));
+        zoo.addAnimal(animals1);
+        zoo.addAnimal(animals2);
 
-        System.out.println(zoo.getAnimal());
+
+        zoo.getAnimal();
     }
 }

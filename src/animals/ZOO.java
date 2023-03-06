@@ -8,7 +8,13 @@ public class ZOO{
     public void addAnimal(Animal animal){
         animals.add(animal);
     }
-    public List<Animal> getAnimal(){
-        return animals;
+
+    public void getFromArray(){
+        for(int i = 0; i < animals.size(); i++){
+            System.out.println(animals.get(i).getAnimalType() + "\n" + animals.get(i).getKg() + "\n" + animals.get(i).getAge());
+        }
+    }
+    public void getAnimal(){
+        getFromArray();
     }
 }
